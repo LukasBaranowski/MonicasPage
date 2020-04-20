@@ -27,18 +27,7 @@ header .logo {
 header .logo span {
     color: #d72f59;
 }
-/*
-header .toggle {
-    max-width: 50px;
-    cursor: pointer;
-}
-header .toggle img {
-    max-width: 70%;
-}
-header .toggle img:hover{
-    max-width: 50%;
-}
-*/
+
 .social {
     position: absolute;
     bottom: 20px;
@@ -95,8 +84,7 @@ header .toggle img:hover{
 .banner .textBox {
     position: relative;
     max-width: 600px;
-    z-index: 3;
-    
+    z-index: 3; 
 }
 .banner .textBox h2 {
     color: #fff;
@@ -140,6 +128,9 @@ header .toggle img:hover{
     padding: 280px 50px 0;
     opacity: .5;
 }
+.banner .imgBox img:hover {
+    opacity: .8;
+}
 @media (max-width: 991px) {
     .banner .imgBox img {
         opacity: .5;
@@ -180,6 +171,4 @@ header .toggle img:hover{
         width: 150px;
         transform: skewX(-25deg) translateX(50%)
     }
-    
-    
 }
